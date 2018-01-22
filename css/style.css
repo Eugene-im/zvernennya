@@ -1,0 +1,139 @@
+		@font-face {
+			font-family: "BeerRegular";
+			src: url("../fonts/BeerRegular/BeerRegular.eot");
+			src: url("../fonts/BeerRegular/BeerRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BeerRegular/BeerRegular.woff") format("woff"),
+			url("../fonts/BeerRegular/BeerRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+		.e3{
+		top:-160px !important;
+	}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 150px auto;
+    border: 2px solid #cecece;
+    border-radius: 50%;
+    position: relative;
+    font-family: "BeerRegular";
+    font-size: 25px;
+}
+
+.container_1 {
+    min-height: 110vh;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 300px;
+    border: 2px solid #666666;
+    margin: 18px;
+    padding: 5px;
+    background-image: url('../images/css_sprites.png');
+    background-size: 670%;
+}
+
+label {
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: 18px;
+    padding: 5px;
+    width: 200px;
+    overflow-x: hidden;
+}
+
+.item_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    display: none;
+    font-size: 18px;
+    overflow-y: hidden;
+}
+.item_text img{
+	width:280px;
+}
+
+.item_text_long {
+    width: 310px;
+    height: 373px;
+}
+
+.box:hover {
+    border: 2px solid #ececec;
+    background-image: url('../images/css_sprites_bl.png');
+}
+
+.box:hover+.item_text {
+    display: block;
+}
+
+#item1 {
+    background-position: -717px -19px;
+
+}
+
+#item2 {
+    background-position: -515px -382px;
+    background-size: 768%;
+}
+
+#item3 {
+    background-position: -307px -382px;
+    background-size: 768%;
+}
+
+#item4 {
+    background-position: -291px -580px;
+    background-size: 768%;
+}
+
+#item5 {
+    background-position: -67px -582px;
+    background-size: 768%;
+}
+
+#item6 {
+    background-position: -336px -204px;
+    background-size: 768%;
+}
+
+#item7 {
+    background-position: -68px -204px;
+    background-size: 768%;
+}
+
+#item8 {
+    background-position: -398px 11px;
+    background-size: 525%;
+}
+
+#item9 {
+	    background-position: -89px -382px;
+    background-size: 768%;
+}
+
+#item10 {
+    background-position: -309px -15px;
+}
+
+#item11 {
+	    background-position:-599px -200px;
+    background-size: 768%;
+}
+
+#item12 {
+    background-position: -51px -15px;
+}
